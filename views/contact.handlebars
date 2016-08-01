@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel = "stylesheet" href = "contact.css" >
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		
+<style>
+		.navbar {
+    			margin-bottom: 0;
+    			background-color: #fff;
+    			z-index: 9999;
+    			border: 0;
+   				font-size: 12px !important;
+    			line-height: 1.42857143 !important;
+    			letter-spacing: 4px;
+    			border-radius: 0;
+			}
+			.navbar li a, .navbar .navbar-brand {
+   				color: #3A5675 !important;
+			}
+			.navbar-nav li a:hover, .navbar-nav li.active a {
+   				color: #fff !important;
+    			background-color: #3A5675 !important;
+			}
+			.navbar-default .navbar-toggle {
+    			border-color: transparent;
+    			color: #3A5675 !important;
+			}
+			
+			.dropdown:hover .dropdown-menu {
+				display:block;
+				}
+			
+			body {
+				font-family: Avenir, sans-serif;
+			}
+</style>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+		<div class="container">
+ 			<nav class="navbar navbar-default navbar-fixed-top">
+  			<div class="container-fluid">
+   				 <!-- Brand and toggle get grouped for better mobile display -->
+    			<div class="navbar-header">
+      				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+       			 		<span class="sr-only">Toggle navigation</span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+      				</button>
+    			</div>
+
+   				<!-- Collect the nav links, forms, and other content for toggling -->
+    			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      				<ul class="nav navbar-nav navbar">
+       					<li><a href="/home">Home</a></li>
+        				<li><a href="/about">About</a></li>
+        				<li><a href="/jobs">Jobs</a></li>
+        				<li class="dropdown">
+          				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Prep<span class="caret"></span></a>
+          				<ul class="dropdown-menu">
+            				<li><a href="/build">Resumé Builder</a></li>
+            				<li role="separator" class="divider"></li>
+            				<li><a href="/rtips">Resumé tips</a></li>
+            				<li role="separator" class="divider"></li>
+            				<li><a href="/itips">Interview tips</a></li>
+            				<li role="separator" class="divider"></li>
+            				<li><a href="/appear">Appearance</a></li>
+         				</ul>
+        				</li>
+        				<li><a href="/donate">Donate</a></li>
+        				<li class="active"><a href="/contact.html">Contact</a></li>
+      				</ul>
+    			</div><!-- /.navbar-collapse -->
+ 			</div><!-- /.container-fluid -->
+			</nav>
+		</div>
+		
+		<div style = "padding:20px"></div>
+		<div class="page-header">
+  				<h1>Contact Us</h1>
+			</div>
+			
+		<h3> Any questions or comments? Suggestions? </h3>
+		<p> Fill out the form below:</p>
+			
+		<form>      
+  		<input name="name" type="text" class="feedback-input" placeholder="Name" />   
+  		<input name="email" type="text" class="feedback-input" placeholder="Email" />
+ 		<textarea name="message" class="feedback-input" placeholder="Message"></textarea>
+  		<!--<input type="submit" value="SUBMIT" target="#myModal"/>-->
+  		<input id= "submit" type='reset' value='Submit' name='submit' class="btn btn-info btn-xl" data-toggle="modal" data-target="#myModal">
+		</form>
+		
+		<div style= "margin-top:100px" id="myModal" class="modal fade" role="dialog">
+  		<div class="modal-dialog">
+
+    	<!-- Modal content-->
+    	<div class="modal-content">
+     	<div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Thank you!</h4>
+      	</div>
+      	<div class="modal-body">
+        <p>We will get back to you as soon as possible.</p>
+      	</div>
+    	</div>
+
+  </div>
+</div>
+
+
+
+		<footer class="container-fluid text-center">
+ 				<a href="/contact" title="To Top">
+    				<span class="glyphicon glyphicon-chevron-up"></span>
+  				</a> 
+			</footer>
+ </body>
+ </html>

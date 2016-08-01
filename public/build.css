@@ -1,0 +1,92 @@
+h1 {
+	text-align: center;
+	font-family: Avenir, sans-serif;
+	color: #3A5675;
+}
+
+h3 {
+	text-align: center;
+	font-family: Avenir, sans-serif;
+	color: #3A5675;
+	margin-left:100px; 
+	margin-right:100px;
+	line-height: 1.4;
+}
+
+p {
+	text-align: center;
+	font-family: Avenir, sans-serif;
+	color: #3A5675;
+	margin-left:100px; 
+	margin-right:100px;
+	line-height: 1.4;
+	font-size: 20px;
+	}
+
+body {
+	font-family: Avenir, sans-serif;
+	text-align: center;
+	color: #3A5675;
+	font-size: 20px;
+}
+
+
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:#3A5675;
+  font-family: Avenir, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #3A5675;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #00A9DE; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: Avenir, sans-serif;
+  background:#3A5675;
+  border-radius:5px;
+  text-align:center;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:16px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:10px;
+}
+
+[type="submit"]:hover { background:#00A9DE; }
+
+.feedback-input {
+	margin-top:10px;
+}
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fff ;
+    padding:20px;
+}
+
+footer {
+background-color: #3A5675;
+margin-top:50px;
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel = "stylesheet" href = "jobs.css" >
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.2.0/list.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<style>
+		.navbar {
+    			margin-bottom: 0;
+    			background-color: #fff;
+    			z-index: 9999;
+    			border: 0;
+   				font-size: 12px !important;
+    			line-height: 1.42857143 !important;
+    			letter-spacing: 4px;
+    			border-radius: 0;
+			}
+			.navbar li a, .navbar .navbar-brand {
+   				color: #3A5675 !important;
+			}
+			.navbar-nav li a:hover, .navbar-nav li.active a {
+   				color: #fff !important;
+    			background-color: #3A5675 !important;
+			}
+			.navbar-default .navbar-toggle {
+    			border-color: transparent;
+    			color: #3A5675 !important;
+			}
+			
+			.dropdown:hover .dropdown-menu {
+				display:block;
+				}
+			body {
+				font-family: Avenir, sans-serif;
+			}
+</style>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+		<div class="container">
+ 			<nav class="navbar navbar-default navbar-fixed-top">
+  			<div class="container-fluid">
+   				 <!-- Brand and toggle get grouped for better mobile display -->
+    			<div class="navbar-header">
+      				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+       			 		<span class="sr-only">Toggle navigation</span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+      				</button>
+    			</div>
+
+   				<!-- Collect the nav links, forms, and other content for toggling -->
+    			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      				<ul class="nav navbar-nav navbar">
+       					<li><a href="/home">Home</a></li>
+        				<li><a href="/about">About</a></li>
+        				<li class = "active" ><a href="/jobs">Jobs</a></li>
+        				<li class="dropdown">
+          				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Prep<span class="caret"></span></a>
+          				<ul class="dropdown-menu">
+            				<li><a href="/build">Resumé Builder</a></li>
+            				<li role="separator" class="divider"></li>
+            				<li><a href="/rtips">Resumé tips</a></li>
+            				<li role="separator" class="divider"></li>
+            				<li><a href="/itips">Interview tips</a></li>
+            				<li role="separator" class="divider"></li>
+            				<li><a href="/appear">Appearance</a></li>
+         				</ul>
+        				</li>
+        				<li><a href="/donate">Donate</a></li>
+        				<li><a href="/contact">Contact</a></li>
+      				</ul>
+    			</div><!-- /.navbar-collapse -->
+ 			</div><!-- /.container-fluid -->
+			</nav>
+		</div>
+		
+		<div class="jumbotron">
+  		</div>
+		<div></div>
+			<div class="page-header">
+  				<h1>Jobs</h1>
+			</div>
+			
+		<h2> Find companies that are open to hiring homeless people. </h2>
+		
+		<div id="users" style="margin-top:20px">
+  <input class="search" placeholder="Search" />
+  <button class="sort" data-sort="name" style="margin-left:10px">
+    Sort by name
+  </button>
+  
+  <ul class="filter" style="margin-top:10px; margin-left:-30px">
+  	Filter by:    
+    <li class="btn" id="filter-none" style="margin-left:10px">All</li>
+    <li class="btn" id="filter-corp">Corporations</li>
+    <li class="btn" id="filter-center">Job Centers and Fairs</li>
+	</ul>
+
+  <ul class="list">
+    <li>
+      <h3><a href="http://www.jobs.net/jobs/sfgoodwill/en-us/search/?keyword=&location=San%20Francisco%2C%20Ca" target="_blank"><span class="name">Goodwill</span></a></h3>
+      <p class="desc">Goodwill <span class="category">is</span> known for hiring people who are looking for their first job or their first job in a long time.</p>
+    </li>
+    <li>
+      <h3><a href="https://www.amazon.jobs/en/locations/san-francisco" target="_blank"><span class="name">Amazon</span></a></h3>
+      <p class="desc">Amazon <span class="category">is</span> known for hiring homeless people for various jobs.</p>
+    </li>
+    <li>
+      <h3><a href="http://sfgoodwill.org/jobs/non-goodwill-jobs/" target="_blank"><span class="name">CAP Job Center</span></a></h3>
+      <p class="desc">Free and open to all, the Goodwill Comprehensive Access Point (CAP) Job Center offers a wide variety of career navigation 
+      services. In the past 12 months, CAP hosted more than 20,000 visits. It’s <span class="category">the</span> best place to begin your search.</p>
+    </li>
+    <li>
+      <h3><a href="http://www.salvationarmyusa.org/usn/employment-opportunities" target="_blank"><span class="name">Salvation Army</span></a></h3>
+      <p class="desc">Salvation Army <span class="category">is</span> a great resource that not only offers jobs, but also provides many other 
+      <a href="http://www.salvationarmyusa.org/usn/plugins/gdosCenterSearch?mode=query_2&lat=37.775&lng=-122.419&code=US&query=san%20francisco"
+      target="_blank">services</a> for adults, such as alcohol and drug treatment.</p>
+    </li>
+    <li>
+      <h3><a href="https://www.thegivingkeys.com/pages/careers" target="_blank"><span class="name">The Giving Keys</span></a></h3>
+      <p class="desc">The Giving Keys <span class="category">is</span> a pay-it-forward fashion company employs those transitioning out of homelessness.
+      You can read some <a href="https://www.thegivingkeys.com/pages/employed-for-change" target="_blank">stories</a> of employees at the company.</p>
+    </li>
+    <li>
+      <h3><a href="http://www.path.org/jobs/" target="_blank"><span class="name">PATH</span></a></h3>
+      <p class="desc">PATH <span class="category">is</span> the leader in global health innovation, and they also hire people who might not have the most experience.</p>
+    </li>
+     <li>
+      <h3><a href="https://www.eventbrite.com/d/ca--san-francisco/career-fair/" target="_blank"><span class="name">San Francisco Career Fairs</span></a></h3>
+      <p class="desc">This resource lists several different career fairs that are happening soon in <span class="category">the</span> San Francisco Bay
+      Area. Career Fairs are a great way to learn about several different opportunities and apply for jobs at the same time!</p>
+    </li>
+    <li>
+      <h3><a href="http://www.indeed.com/q-No-Experience-l-San-Francisco,-CA-jobs.html" target="_blank"><span class="name">No Experience Required Jobs</span></a></h3>
+      <p class="desc">This resources lists jobs in San Francisco that require no experience. This is
+      <span class="category">the</span>  perfect way to get a job to kickstart your career.</p>
+    </li>
+  </ul>
+
+</div>
+<script src="http://listjs.com/no-cdn/list.js"></script>
+<script>
+var options = {
+  valueNames: [ 'name', 'desc', 'category' ]
+};
+var userList = new List('users', options);
+$('#filter-corp').click(function() {
+  userList.filter(function(item) {
+    if (item.values().category == "is") {
+      return true;
+    } else {
+      return false;
+    }
+  });
+  return false;
+});
+$('#filter-center').click(function() {
+  userList.filter(function(item) {
+    if (item.values().category == "the") {
+      return true;
+    } else {
+      return false;
+    }
+  });
+  return false;
+});
+$('#filter-none').click(function() {
+  userList.filter();
+  return false;
+});
+</script>
+		
+<footer class="container-fluid text-center">
+ 				<a href="/jobs" title="To Top">
+    				<span class="glyphicon glyphicon-chevron-up"></span>
+  				</a> 
+			</footer>
+		
+ </body>
+ </html>

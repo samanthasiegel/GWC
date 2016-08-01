@@ -1,0 +1,105 @@
+.navbar {
+    margin-bottom: 0;
+    background-color: #fff;
+    z-index: 9999;
+    border: 0;
+   	font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+   	color: #3A5675 !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+   		color: #fff !important;
+    	background-color: #3A5675 !important;
+}
+
+.navbar-default .navbar-toggle {
+    	border-color: transparent;
+    	color: #00A9DE !important;
+}
+			
+.dropdown:hover .dropdown-menu {
+		display:block;
+}
+
+
+h1 {
+	margin-left: 50px;
+	margin-right:50px;
+	text-align: center;
+	font-size: 300%;
+	font-family: Avenir, Sans-Serif;
+	color: #3A5675;
+	display: block;
+	margin-top: 70px;
+}
+
+h2 {
+	margin-left: 50px;
+	margin-right:50px;
+	font-size: 200%;
+	font-family: Avenir, Sans-Serif;
+	color: #3A5675;
+	display: block;
+	margin-top: 50px;
+	margin-left: 40px;
+}
+
+p { 
+	font-size: 130%;
+	font-family: Avenir, Sans-Serif;
+	color: #3A5675;
+	margin-left: 85px;
+	margin-right: 50px;
+	text-indent: 30px;
+}
+
+
+#pic {
+	position: absolute;
+	TOP:570px; 
+	LEFT:850px; 
+	WIDTH:500px; 
+	HEIGHT:550px;
+}
+.jumbotron {
+	background-image: url(career.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 250px;
+}
+
+
+#list {
+	font-size: 130%;
+	font-family: Avenir, Sans-Serif;
+	color: #3A5675;
+}
+
+body {
+	font-family: Avenir, Sans-Serif;
+	
+}
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fff ;
+    padding:10px;
+}
+
+footer {
+	background-color: #3A5675;
+	margin-top:140px;
+}
+
+ul {
+	margin-left: 50px;
+	margin-right: 50px;
+	list-style-position: inside;
+}

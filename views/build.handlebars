@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel = "stylesheet" href = "build.css" >
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<style>
+		.navbar {
+    			margin-bottom: 0;
+    			background-color: #fff;
+    			z-index: 9999;
+    			border: 0;
+   				font-size: 12px !important;
+    			line-height: 1.42857143 !important;
+    			letter-spacing: 4px;
+    			border-radius: 0;
+			}
+			.navbar li a, .navbar .navbar-brand {
+   				color: #3A5675 !important;
+			}
+			.navbar-nav li a:hover, .navbar-nav li.active a {
+   				color: #fff !important;
+    			background-color: #3A5675 !important;
+			}
+			.navbar-default .navbar-toggle {
+    			border-color: transparent;
+    			color: #3A5675 !important;
+			}
+			
+			.dropdown:hover .dropdown-menu {
+				display:block;
+				}
+			
+			body {
+				font-family: Avenir, sans-serif;
+			}
+</style>
+</head>
+
+<body>
+		<div class="container">
+ 			<nav class="navbar navbar-default navbar-fixed-top">
+  			<div class="container-fluid">
+   				 <!-- Brand and toggle get grouped for better mobile display -->
+    			<div class="navbar-header">
+      				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+       			 		<span class="sr-only">Toggle navigation</span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+      				</button>
+    			</div>
+
+   				<!-- Collect the nav links, forms, and other content for toggling -->
+    			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      				<ul class="nav navbar-nav navbar">
+       					<li><a href="/home">Home</a></li>
+        				<li><a href="/about">About</a></li>
+        				<li><a href="/jobs">Jobs</a></li>
+        				<li class="dropdown">
+          				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Prep<span class="caret"></span></a>
+          				<ul class="dropdown-menu">
+            				<li class = "active"><a href="/build">Resumé Builder</a></li>
+            				<li role="separator" class="divider"></li>
+            				<li><a href="/rtips">Resumé tips</a></li>
+            				<li role="separator" class="divider"></li>
+            				<li><a href="/itips">Interview tips</a></li>
+            				<li role="separator" class="divider"></li>
+            				<li><a href="/appear">Appearance</a></li>
+         				</ul>
+        				</li>
+        				<li><a href="/donate">Donate</a></li>
+        				<li><a href="/contact">Contact</a></li>
+      				</ul>
+    			</div><!-- /.navbar-collapse -->
+ 			</div><!-- /.container-fluid -->
+			</nav>
+		</div>
+		
+		<div style = "padding:20px"></div>
+		<div class="page-header">
+  				<h1>Resumé Builder</h1>
+			</div>
+			
+		<form action="/build" method="post">   
+		Basic Information:  
+  		<input name="name" type="text" class="feedback-input" placeholder="Name" />   
+  		<input name="email" type="text" class="feedback-input" placeholder="Email" />
+  		<input name="phone" type="text" class="feedback-input" placeholder="Phone Number" />
+  		Most recent work experience:
+  		<input name="company" type="text" class="feedback-input" placeholder="Company name" />
+  		<input name="location" type="text" class="feedback-input" placeholder="Location" />
+  		<input name="title" type="text" class="feedback-input" placeholder="Your Title" />
+  		<input name="time" type="text" class="feedback-input" placeholder="Time period" />
+ 		<textarea name="description" class="feedback-input" placeholder="Description"></textarea>
+ 		Education:
+ 		<input name="school" type="text" class="feedback-input" placeholder="School" />
+ 		<input name="city" type="text" class="feedback-input" placeholder="City, State" />
+ 		<input name="dates" type="text" class="feedback-input" placeholder="Dates of Attendance" />
+ 		Achievements/Awards:
+ 		<input name="award" type="text" class="feedback-input" placeholder="Award" />
+ 		<textarea name="adescription" class="feedback-input" placeholder="Description"></textarea>
+ 		Skills: <small>(separate multiple with commas)</small>
+ 		<input name="skills" type="text" class="feedback-input" placeholder="Skills" />
+  		<input type='submit' value='Submit' name='submit'> 
+  		</form>
+		
+<footer class="container-fluid text-center">
+ 				<a href="/build" title="To Top">
+    				<span class="glyphicon glyphicon-chevron-up"></span>
+  				</a> 
+			</footer>
+ </body>
+ </html>

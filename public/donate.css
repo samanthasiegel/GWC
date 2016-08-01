@@ -1,0 +1,161 @@
+.button {
+  display: block;
+  border-radius: 4px;
+  background-color: #3A5675;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 30px;
+  font-family: Avenir, Sans-Serif;
+  padding: 16px;
+  width: 160px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:#3A5675;
+  font-family: Avenir, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #3A5675;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #00A9DE; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: Avenir, sans-serif;
+  width: 100%;
+  background:#3A5675;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#00A9DE; 
+}
+
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fff ;
+    padding:20px;
+}
+
+footer {
+background-color: #3A5675;
+margin-top:50px;
+}
+
+.jumbotron {
+  background-image: url(sfdonate.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 19%;
+}
+#donation-button {
+  font-family: Avenir, Sans-Serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+
+#myModal {
+  top: 30%;
+  outline: none;
+
+  font-family: Avenir, Sans-Serif;
+  height: 300px;
+}
+
+
+#modal-text {
+  display: block;
+  text-align: center;
+  font-size: 40px;
+
+  margin-top: 10px;
+}
+
+
+
+h1 {
+  font-family: Avenir, Sans-Serif;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 300%;
+  text-align: center;
+  color: #3A5675;
+
+  padding-top: 40px;
+  padding-bottom: 27px;
+
+}
+
+
+p {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 60px;
+
+  text-align: justify;
+  text-indent: 20px;
+  font-family: Avenir, Sans-Serif;
+  font-size: 24px;
+
+}

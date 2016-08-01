@@ -1,0 +1,83 @@
+h1 {
+	color: #3A5675;
+	font-family: Avenir, Sans-Serif;
+	font-size: 300%;
+	text-align: center;
+	padding-bottom: 50px;
+	padding-top: 20px;
+
+	display: block;
+	margin-top: 20px;
+}
+
+h3 {
+	color: #3A5675;
+	font-family: Avenir, Sans-Serif;
+	font-size: 200%;
+}
+
+h4 {
+	color: #3A5675;
+	font-family: Avenir, Sans-Serif;
+	font-size: 160%;
+
+	margin-top: 20px;
+}
+
+p {
+	font-family: Avenir, Sans-Serif;
+	font-size: 18px;
+	text-indent: 40px;
+	text-align: justify;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+
+.list-tips {
+	font-size: 18px;
+	font-family: Avenir, Sans-Serif;
+}
+
+.carousel-control.right, .carousel-control.left {
+	background-image: none;
+	color: #00A9DE;
+}
+
+.carousel-indicators li {
+	border-color: #3A5675;
+}
+
+.carousel-indicators li.active {
+	background-color: #3A5675;
+}
+
+.jumbotron {
+	background-image: url(sfappear.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 20%;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: default;
+	max-height: 325px;
+	overflow: hidden;
+}
+
+
+footer .glyphicon {
+	font-size: 20px;
+	margin-bottom: 20px;
+	color: #fff;
+	padding: 20px;
+}
+
+footer {
+	background-color: #3A5675;
+	margin-top: 50px;
+}
